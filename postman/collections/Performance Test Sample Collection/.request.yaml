@@ -1,0 +1,16 @@
+$kind: http-request
+name: ""
+url: http://localhost:8080/employees
+method: POST
+body:
+  type: urlencoded
+  content:
+    "fullName ": Pamodi Pramuditha
+    email: pramudithapramitha1@gmail.com
+    phone: "0771234567"
+    department: Information Technology
+    salary: "70000"
+settings:
+  followRedirects: false
+  maxRedirects: 0
+order: 1000
